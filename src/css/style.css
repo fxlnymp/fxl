@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: center;
+  font-size: .18rem;
+  position: relative; }
+  header a {
+    position: absolute;
+    left: .1rem;
+    font-size: .16rem;
+    color: #37bc9b; }
+    header a:hover {
+      color: #37bc9b; }
+
+section {
+  width: 100%;
+  -webkit-flex-grow: 1;
+  overflow-y: auto; }
+  section .banner {
+    width: 100%;
+    position: relative; }
+    section .banner .support, section .banner .note {
+      position: absolute;
+      top: .1rem;
+      color: #fff; }
+    section .banner .support {
+      left: .2rem; }
+    section .banner .note {
+      right: .2rem; }
+    section .banner .intro {
+      color: #fff;
+      text-align: center;
+      padding: .2rem 0;
+      background: #41aa8c; }
+      section .banner .intro .photo {
+        width: .9rem;
+        height: .9rem;
+        margin: 0 auto .1rem;
+        border-radius: 50%;
+        overflow: hidden; }
+        section .banner .intro .photo img {
+          width: 100%;
+          height: 100%; }
+      section .banner .intro h3 {
+        font-size: .18rem;
+        margin-bottom: .1rem; }
+  section .nav {
+    width: 100%;
+    display: -webkit-flex;
+    padding: .15rem 0; }
+    section .nav dl {
+      width: 100%;
+      -webkit-flex-grow: 1;
+      text-align: center; }
+      section .nav dl dt {
+        width: .65rem;
+        height: .65rem;
+        margin: 0 auto .1rem; }
+        section .nav dl dt img {
+          width: 100%;
+          height: 100%; }
+  section .news {
+    width: 100%; }
+    section .news h3 {
+      height: .33rem;
+      background: #eee;
+      line-height: .33rem;
+      padding-left: .1rem; }
+    section .news ul {
+      width: 100%; }
+      section .news ul li {
+        padding: .15rem .1rem;
+        line-height: .15rem;
+        border-bottom: 1px solid #ccc; }
+        section .news ul li span {
+          float: right; }
+
+footer {
+  width: 100%;
+  border-top: 1px solid #ccc; }
+  footer nav {
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    display: -webkit-flex;
+    text-align: center; }
+    footer nav a {
+      width: 100%;
+      -webkit-flex: 1;
+      color: #37bc9b; }
+      footer nav a.active {
+        background: #37bc9b;
+        color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

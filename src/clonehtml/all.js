@@ -1,0 +1,1 @@
+function js2(){console.log(2321)}var a=function(){console.log(11)};js2();
